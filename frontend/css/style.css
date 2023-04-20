@@ -121,12 +121,12 @@ header{
     background-color: var(--Primary_text_Color2);
     color: var(--blk);
 }
-.bottow-style-element{
+/* .bottow-style-element{
     min-height: 150px;
     background-color: red;
     position:absolute;
     bottom: 0;
-}
+} */
 .header_explain_container{
     /* background-color: red; */
     min-height: 100px;
@@ -134,16 +134,17 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 250px;
+    min-height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 0 !important;
 }
 /* .header_explain_container .container{
     background-color: rebeccapurple;
 } */
 .header_explain{
-    margin-top: 50px;
+    margin-top: 100px;
     color: var(--wt);
     color: var(--Primary_C1);
     font-family: var(--Roboto);
@@ -152,6 +153,35 @@ header{
     text-align: center;
 }
 footer{
+    margin-top: 0 !important;
     background-color: var(--footerBg);
     padding: 30px 0;
+}
+footer .container{
+    border-top: 2px solid var(--Primary_C1_light);
+    padding: 10px 0;
+    gap: 10px;
+    
+}
+
+
+
+footer .container > * {
+    /* background-color: red; */
+    min-height: 50px;
+}
+footer .container > * h5{
+    font-family: var(--Roboto);
+}
+footer .container > * ul li{
+    list-style-type: none;
+}
+footer .container > *:not(:last-child){
+    border-right:2px solid var(--Primary_C1_light);
+}
+footer .brand-logo{
+    width: 100%;
+}
+footer small {
+    text-align: center;
 }
