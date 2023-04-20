@@ -18,6 +18,7 @@
     --wt:#fff;
     --blk:#000;
     --transparentBlk:  rgba(0, 0, 0,0.3);
+    --footerBg:#2f353b;
 
 }
 
@@ -128,6 +129,11 @@ header{
 }
 .header_explain_container{
     /* background-color: red; */
+    min-height: 100px;
+    background-image: url(../assets/img/websiteElements-01.png );
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     min-height: 250px;
     display: flex;
     justify-content: center;
@@ -137,10 +143,15 @@ header{
     background-color: rebeccapurple;
 } */
 .header_explain{
+    margin-top: 50px;
     color: var(--wt);
     color: var(--Primary_C1);
     font-family: var(--Roboto);
     font-weight: 100;
     font-size: 1.6rem;
     text-align: center;
+}
+footer{
+    background-color: var(--footerBg);
+    padding: 30px 0;
 }
