@@ -126,3 +126,21 @@ header{
     position:absolute;
     bottom: 0;
 }
+.header_explain_container{
+    /* background-color: red; */
+    min-height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .header_explain_container .container{
+    background-color: rebeccapurple;
+} */
+.header_explain{
+    color: var(--wt);
+    color: var(--Primary_C1);
+    font-family: var(--Roboto);
+    font-weight: 100;
+    font-size: 1.6rem;
+    text-align: center;
+}
