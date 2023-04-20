@@ -4,10 +4,141 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Available at Staunchngdev</title>
+
+    <!-- Halfmoon CSS -->
+<link href="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/css/halfmoon-variables.min.css" rel="stylesheet" />
+
+<!-- fontawesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<!-- custom css -->
+<link rel="stylesheet" href="../css/style.css">
+
 </head>
 <body>
-    Home Page
+
     
-</body>
+    <!-- ****************
+        HEADER SECTION STARTS HERE
+        ****************-->
+   <header class="nav container-fluid">
+    <div class=" header_navigate container d-flex flex-row justify-content-between align-items-center">
+        <ul class="nav-container">
+            <!-- BRAND LOGO -->
+            <img class="brand-logo" src="https://www.billslake.com/img/mainstructure/billslake_logo.svg" alt="">
+        </ul>
+        <ul class="nav-container d-flex align-items-center justify-content-center">
+            <li>
+                <a href="#">OUR LAKES</a>
+            </li>
+            <li>
+                <a href="#">AVAILABILITIES</a>
+            </li>
+            <li>
+                <a href="#">PRICES</a>
+            </li>
+            <li>
+                <a href="#">SERVICES</a>
+            </li>
+            <li>
+                <a href="#">CONTACT</a>
+            </li>
+            <li>
+                <a href=""> <i class="fa-solid fa-user"></i> </a>
+            </li>
+        </ul>
+    </div>
+
+       
+    <!-- ****************
+        HEADER SECTION starts HERE
+        ****************-->
+        <div class="container" >
+            <h1 class="header_heading text-justify text-center">
+                <span>LIVE</span> AVAILABILITY
+            </h1>
+        </div>
+
+
+        <!-- header Availability form STARTS -->
+        <form class="container header-form">
+            <div class="row">
+
+                <!-- first -->
+              <div class="col-sm">
+                <label>HOLIDAY DATE?</label>
+                <input type="date">
+              </div>
+
+
+              <!-- second -->
+              <div class="col-sm">
+                <label>LAKE EXCLUSIVE?</label>
+                <input type="date">
+              </div>
+
+
+              <!-- third -->
+              <div class="col-sm">
+                <label>ANGLERS?</label>
+                <select name="anglers" id="anglers">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+              </div>
+
+
+              <!-- firth -->
+              <div class="col-sm">
+                <label>GUESTS?</label>
+                <select name="guests" id="guests">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+              </div>
+
+
+            </div>
+
+
+            <!-- submit button -->
+            <div class="container text-center m-20">
+            <button class=" m-20 btn-availability">FIND AVAILABILITY</button>
+            </div>
+
+        </form>
+        <!-- header Availability form ENDS -->
+
+
+
+        
+    <!-- ****************
+        HEADER SECTION ENDS HERE
+        ****************-->
+
+    </header>
+    <!-- ****************
+        HEADER SECTION ENDS HERE
+        ****************-->
+
+
+ 
+
+
+
+<!-- Halfmoon JS -->
+<script src="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/js/halfmoon.min.js"></script>
+    
+  </body>
 </html>
