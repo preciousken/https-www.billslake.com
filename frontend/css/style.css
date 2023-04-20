@@ -176,15 +176,28 @@ footer .container > * h5{
 footer .container > * ul li{
     list-style-type: none;
 }
+footer .container > * ul li a{
+    text-decoration: none;
+    color: var(--Primary_C1);
+}
 footer .container > *:not(:last-child){
     border-right:2px solid var(--Primary_C1_light);
 }
 footer .brand-logo{
     width: 100%;
 }
-footer small {
+footer .container >*:last-child {
     text-align: center;
+    color: var(--Primary_C1);
 }
+footer small{
+    font-family: var(--Roboto);
+    font-size: 1.2rem;
+}
+
+
+
+
 
 
 
