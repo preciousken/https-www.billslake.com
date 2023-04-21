@@ -13,6 +13,7 @@
     --Primary_C1:#b1b3b5;
     --Primary_C1_light:#777b7e42;
     --Primary_text_Color: green;
+    --Primary_text_Color_light: rgba(85, 219, 85, 0.126);
     --Primary_text_Color2: rgb(85, 219, 85);
     --Primary_text_Color_transparent:rgb(165, 202, 13);
     --wt:#fff;
@@ -22,7 +23,7 @@
 
 }
 
-header{
+header.nav{
     min-height: 100vh;
     /* height: 800px; */
     background-image: linear-gradient( to right,rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url('https://images.pexels.com/photos/13235422/pexels-photo-13235422.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load');
@@ -78,7 +79,7 @@ header{
 .header-form > .row{
     gap: 20px;
 }
-.header-form .row > * {
+.header-form .row > .col-sm:not(.header_steps) {
     background-color:  var(--transparentBlk) ;
     min-height: 100px;
     display: flex;
@@ -199,11 +200,45 @@ footer small{
     font-family: var(--Roboto);
     font-size: 1.2rem;
 }
-.steps{
+.header_steps{
     /* background-color: red !important; */
+    border: 3px dotted  var(--Primary_text_Color_light) !important;
+    /* height: auto; */
+    /* margin-bottom: 30px; */
+    border-radius: 30px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.header_steps h6 span{
+    font-weight: 700;
+}
+header.steps .container-fluid{
+    background-color: var(--Primary_text_Color);
+     width: 100% !important;
+    height: 80px;
+    color: var(--wt);
+    margin-top: -15px !important;
+    text-align: center;
+    border-radius: 10px;
+}
+header.steps ul{
+    color:var(--Primary_C1); 
+    margin-top: 10px;
     
 }
-
+header.steps ul span{
+    color: var(--Primary_text_Color);
+    font-weight: 500;
+    font-size: 2rem;
+}
+header.steps ul li{
+    list-style-type: none;
+    text-align: center;
+}
+.bold{
+    font-weight: 500;
+    
+}
 
 /* *************
 MAKEBOOKING PAGES STYLINGS GOES IN HERE (STARTS)
